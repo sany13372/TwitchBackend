@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "followers_streamers",
+  "info": {
+    "singularName": "followers-streamer",
+    "pluralName": "followers-streamers",
+    "displayName": "FollowersStreamer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

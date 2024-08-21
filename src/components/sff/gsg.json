@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sff_gsgs",
+  "info": {
+    "displayName": "gsg",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "ffs": {
+      "type": "boolean"
+    }
+  }
+}

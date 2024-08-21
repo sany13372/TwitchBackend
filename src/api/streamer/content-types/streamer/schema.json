@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "streamers",
+  "info": {
+    "singularName": "streamer",
+    "pluralName": "streamers",
+    "displayName": "Streamer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "usersCount": {
+      "type": "biginteger"
+    },
+    "videoName": {
+      "type": "text"
+    },
+    "gameStream": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category-game.category-game"
+    },
+    "videoImg": {
+      "type": "text"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "streamers"
+    },
+    "categoryGame": {
+      "type": "string"
+    }
+  }
+}

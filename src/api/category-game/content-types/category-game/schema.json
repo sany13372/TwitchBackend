@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_games",
+  "info": {
+    "singularName": "category-game",
+    "pluralName": "category-games",
+    "displayName": "CategoryGame",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoryGame": {
+      "type": "string"
+    },
+    "categoryImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
